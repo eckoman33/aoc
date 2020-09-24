@@ -19,7 +19,7 @@ a {
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  background: url(files/theme/header-bg.jpg) repeat center top;
+  background-image: url(files/theme/header-bg.jpg) repeat center top;
 }
 
 .container {
@@ -88,7 +88,7 @@ div#content {
 }
 
 #logo .container {
-  background: url(files/theme/logo-shadow.png) no-repeat center top;
+  background: url(https://www.jeffhodge.com/files/theme/logo-shadow.png?1592322768) no-repeat center top;
   padding: 50px 0 60px 0;
 }
 
@@ -133,7 +133,7 @@ div#content {
 }
 
 .wsite-social-rss {
-  background: url(files/theme/social-icons.png) no-repeat -128px 0px;
+  background: url(https://www.jeffhodge.com/files/theme/soical-icons.png?1592322768) no-repeat -128px 0px;
 }
 
 .wsite-social-rss:hover {
@@ -145,7 +145,7 @@ div#content {
 }
 
 .wsite-social-linkedin {
-  background: url(files/theme/social-icons.png) no-repeat -64px 0px;
+  background: url(https://www.jeffhodge.com/files/theme/soical-icons.png?1592322768) no-repeat -64px 0px;
 }
 
 .wsite-social-linkedin:hover {
@@ -157,7 +157,7 @@ div#content {
 }
 
 .wsite-social-facebook {
-  background: url(files/theme/social-icons.png) no-repeat 0px 0px;
+  background: url(https://www.jeffhodge.com/files/theme/soical-icons.png?1592322768) no-repeat 0px 0px;
 }
 
 .wsite-social-facebook:hover {
@@ -169,7 +169,7 @@ div#content {
 }
 
 .wsite-social-twitter {
-  background: url(files/theme/social-icons.png) no-repeat -32px 0px;
+  background: url(https://www.jeffhodge.com/files/theme/soical-icons.png?1592322768) no-repeat -32px 0px;
 }
 
 .wsite-social-twitter:hover {
@@ -181,7 +181,7 @@ div#content {
 }
 
 .wsite-social-mail {
-  background: url(files/theme/social-icons.png) no-repeat -96px 0px;
+  background: url(https://www.jeffhodge.com/files/theme/soical-icons.png?1592322768) no-repeat -96px 0px;
 }
 
 .wsite-social-mail:hover {
@@ -193,7 +193,7 @@ div#content {
 }
 
 .wsite-social-pinterest {
-  background: url(files/theme/social-icons.png) no-repeat -224px 0px;
+  background: url(https://www.jeffhodge.com/files/theme/soical-icons.png?1592322768) no-repeat -224px 0px;
 }
 
 .wsite-social-pinterest:hover {
@@ -205,7 +205,7 @@ div#content {
 }
 
 .wsite-social-youtube {
-  background: url(files/theme/social-icons.png) no-repeat -322px 0px;
+  background: url(https://www.jeffhodge.com/files/theme/soical-icons.png?1592322768) no-repeat -322px 0px;
 }
 
 .wsite-social-youtube:hover {
@@ -342,7 +342,7 @@ div#content {
 }
 
 #nav-wrap .container ul li#active a, #nav-wrap .container ul li a:hover {
-  background: url(theme/nav-hover-bg-magento.png?1592322768) repeat center left;
+  background: url(theme/nav-hover-bg-magento.png) repeat center left;
   -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.23);
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.23);
   position: relative;
@@ -542,7 +542,7 @@ blockquote {
 }
 
 #footer-wrap .container {
-  background: url(theme/logo-shadow.png?1592322768) no-repeat center top;
+  background: url(files/theme/logo-shadow.png) no-repeat center top;
   padding: 40px 0;
 }
 
@@ -600,7 +600,7 @@ blockquote {
   height: 47px;
   display: inline-block;
   padding: 0px 25px 0px 0px;
-  background: url(theme/button.png?1592322768) no-repeat 100% -144px;
+  background: url(theme/button.png) no-repeat 100% -144px;
 }
 
 .wsite-button:hover {
@@ -619,7 +619,7 @@ blockquote {
   font-size: 18px;
   font-weight: bold;
   padding: 0px 0px 0px 26px;
-  background: url(theme/button.png?1592322768) no-repeat 0px 0px;
+  background: url(theme/button.png) no-repeat 0px 0px;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.29);
 }
 
