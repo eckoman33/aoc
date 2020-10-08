@@ -19,7 +19,7 @@ a {
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  background-image: url(files/theme/header-bg.jpg) repeat center top;
+  background: url(../files/theme/header-bg.jpg) repeat center top;
 }
 
 .container {
@@ -82,13 +82,13 @@ div#content {
 }
 
 #logo {
-  background: url(files/theme/header-bg.jpg) repeat center;
+  background: url(../files/theme/header-bg.jpg) repeat center;
   -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.13);
   box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.13);
 }
 
 #logo .container {
-  background: url(https://www.jeffhodge.com/files/theme/logo-shadow.png?1592322768) no-repeat center top;
+  background: url(../files/theme/logo-shadow.png?1592322768) no-repeat center top;
   padding: 50px 0 60px 0;
 }
 
@@ -217,7 +217,7 @@ div#content {
 }
 
 .wsite-social-plus {
-  background: url(files/theme/social-icons.png) no-repeat -192px 0px;
+  background: url(../files/theme/social-icons.png) no-repeat -192px 0px;
 }
 
 .wsite-social-plus:hover {
@@ -229,7 +229,7 @@ div#content {
 }
 
 .wsite-social-flickr {
-  background: url(files/theme/social-icons.png) no-repeat -160px 0px;
+  background: url(../files/theme/social-icons.png) no-repeat -160px 0px;
 }
 
 .wsite-social-flickr:hover {
@@ -241,7 +241,7 @@ div#content {
 }
 
 .wsite-social-vimeo {
-  background: url(files/theme/social-icons.png) no-repeat -257px 0px;
+  background: url(../files/theme/social-icons.png) no-repeat -257px 0px;
 }
 
 .wsite-social-vimeo:hover {
@@ -253,7 +253,7 @@ div#content {
 }
 
 .wsite-social-yahoo {
-  background: url(files/theme/social-icons.png) no-repeat -290px 0px;
+  background: url(../files/theme/social-icons.png) no-repeat -290px 0px;
 }
 
 .wsite-social-yahoo:hover {
@@ -283,11 +283,10 @@ div#content {
   width: 21px;
   height: 28px;
   padding: 0px;
-  background: url(theme/submit-bg.png?1592322768) no-repeat center right;
 }
 
 #nav-wrap {
-  background: url(theme/nav-wrap-bg-magento.png?1592322768) repeat-x center left;
+  background: url(../files/theme/nav-wrap-bg-magento.png?1592322768) repeat-x center left;
   height: 66px;
   position: relative;
   z-index: 2;
@@ -312,7 +311,7 @@ div#content {
 }
 
 #nav-wrap .container ul li:first-child {
-  background: url(theme/nav-li-bg-magento.png?1592322768) repeat-y center left;
+  background: url(..files/theme/nav-li-bg-magento.png?1592322768) repeat-y center left;
 }
 
 #nav-wrap .container ul span li:first-child {
@@ -320,14 +319,14 @@ div#content {
 }
 
 #nav-wrap .container ul span:first-child li {
-  background: url(theme/nav-li-bg-magento.png?1592322768) repeat-y center left;
+  background: url(..files/theme/nav-li-bg-magento.png?1592322768) repeat-y center left;
 }
 
 #nav-wrap .container ul li a {
   display: block;
   float: left;
   color: #fff;
-  background: url(theme/nav-li-bg-magento.png?1592322768) repeat-y center right;
+  background: url(..files/theme/nav-li-bg-magento.png?1592322768) repeat-y center right;
   padding: 25px 25px;
   border: 0;
   outline: 0;
@@ -342,7 +341,7 @@ div#content {
 }
 
 #nav-wrap .container ul li#active a, #nav-wrap .container ul li a:hover {
-  background: url(theme/nav-hover-bg-magento.png) repeat center left;
+  background: url(../files/theme/nav-hover-bg-magento.png) repeat center left;
   -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.23);
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.23);
   position: relative;
@@ -355,7 +354,6 @@ div#content {
 
 #wsite-menus .wsite-menu {
   border-radius: 5px;
-  background: url(theme/submenu-bg.png?1592322768) repeat center left;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -398,7 +396,6 @@ div#content {
   width: 960px;
   float: left;
   height: 342px;
-  background: url(theme/banner-tall.jpg?1592322768) no-repeat;
 }
 
 .short-header-page #banner-wrap {
@@ -419,7 +416,6 @@ div#content {
   width: 960px;
   float: left;
   height: 221px;
-  background: url(theme/banner-short.jpg?1592322768) no-repeat;
 }
 
 .no-header-page .wsite-header {
@@ -453,7 +449,6 @@ div#content {
 .landing-page .wsite-header {
   width: 478px;
   height: 316px;
-  background: url(theme/banner-landing.jpg?1592322768) no-repeat;
 }
 
 .landing-banner-outer {
@@ -542,7 +537,7 @@ blockquote {
 }
 
 #footer-wrap .container {
-  background: url(files/theme/logo-shadow.png) no-repeat center top;
+  background: url(../files/theme/logo-shadow.png) no-repeat center top;
   padding: 40px 0;
 }
 
@@ -600,7 +595,7 @@ blockquote {
   height: 47px;
   display: inline-block;
   padding: 0px 25px 0px 0px;
-  background: url(theme/button.png) no-repeat 100% -144px;
+  background: url(../files/theme/button.png) no-repeat 100% -144px;
 }
 
 .wsite-button:hover {
@@ -619,7 +614,7 @@ blockquote {
   font-size: 18px;
   font-weight: bold;
   padding: 0px 0px 0px 26px;
-  background: url(theme/button.png) no-repeat 0px 0px;
+  background: url(../files/theme/button.png) no-repeat 0px 0px;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.29);
 }
 
@@ -634,7 +629,7 @@ blockquote {
 .wsite-button-large {
   color: ###### !important;
   height: 65px;
-  background: url(theme/button_large.png?1592322768) no-repeat 100% -200px;
+  background: url(../files/theme/button_large.png?1592322768) no-repeat 100% -200px;
   padding: 0px 30px 0px 0px;
 }
 
@@ -662,19 +657,19 @@ blockquote {
 }
 
 .wsite-button-highlight {
-  background-image: url(theme/button_highlight-magento.png?1592322768);
+  background-image: url(..files/theme/button_highlight-magento.png?1592322768);
 }
 
 .wsite-button-highlight .wsite-button-inner {
-  background-image: url(theme/button_highlight-magento.png?1592322768);
+  background-image: url(..files/theme/button_highlight-magento.png?1592322768);
 }
 
 .wsite-button-large.wsite-button-highlight {
-  background-image: url(theme/button_large_highlight-magento.png?1592322768);
+  background-image: url(..files/theme/button_large_highlight-magento.png?1592322768);
 }
 
 .wsite-button-large.wsite-button-highlight .wsite-button-inner {
-  background-image: url(theme/button_large_highlight-magento.png?1592322768);
+  background-image: url(..files/theme/button_large_highlight-magento.png?1592322768);
 }
 
 div.paragraph ul, div.paragraph ol {
