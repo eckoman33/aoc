@@ -2,7 +2,7 @@
 $cfg['debug'] = false;
 
 // This is the email address where you will receive the notification message
-$cfg['email_address'] = 'yeamonentertainment@gmail.com';
+$cfg['email_address'] = 'yeahmonentertainment2@gmail.com';
 
 $cfg['email_from'] = '';
 
@@ -27,9 +27,9 @@ $cfg['smtp_password'] = '';
 
 $cfg['timezone'] = 'Europe/Paris';
 
-$cfg['form_id'] = '';
+$cfg['form_id'] = '1';
 
-$cfg['form_name'] = 'Fan Club Form';
+$cfg['form_name'] = 'Fan Club Signup';
 
 $cfg['form_validationmessage'] = 'Thank you, your message has been sent to us.<br />We will get back to you as soon as possible.';
 
@@ -45,7 +45,7 @@ $cfg['form_errormessage_terms'] = '';
 
 $cfg['form_redirecturl'] = '';
 
-$cfg['adminnotification_subject'] = 'New message sent from your website';
+$cfg['adminnotification_subject'] = 'New Fan Club Signup';
 
 $cfg['adminnotification_hideemptyvalues'] = false;
 
@@ -65,7 +65,7 @@ $cfg['usernotification_message'] = '';
 
 $cfg['usernotification_hideemptyvalues'] = false;
 
-$cfg['formvalidation_required'] = array('cfgen-element-1-9','cfgen-element-1-8','cfgen-element-1-6','cfgen-element-1-3','cfgen-element-1-4');
+$cfg['formvalidation_required'] = array('cfgen-element-1-6','cfgen-element-1-7','cfgen-element-1-8','cfgen-element-1-3','cfgen-element-1-4');
 
 $cfg['formvalidation_email'] = array('cfgen-element-1-3');
 
