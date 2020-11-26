@@ -16,12 +16,16 @@
   <meta name="description" content="Jeff Hodge Comedian" />
   <meta name="keywords" content="Jeff Hodge, Comedian, Los Angeles, Author, Ice House Comedy Club" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 
 
   <link id="wsite-base-style" rel="stylesheet" type="text/css" href="https://cdn2.editmysite.com/css/sites.css?buildTime=1598035318" />
   <link rel="stylesheet" type="text/css" href="https://cdn2.editmysite.com/css/old/fancybox.css?1592243090" />
   <link rel="stylesheet" type="text/css" href="files/main_style.css" title="wsite-theme-css" />
+  <link href="files/cssmenu.css" rel="stylesheet" />
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" />
 
   <style type='text/css'>
     .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph,
@@ -256,10 +260,85 @@
     </div>
   </div>
 
-  <div id="nav-wrap">
-    <script type="text/javascript" src="AmbassMenu/AmbassMenu/AmbassMenu.js"></script>
-    <div id="AmbassMenu"></div>
-  </div><!-- end nav-wrap -->
+  <div id="menuDemo">
+  <!--start CssMenu-->
+  <div class="menu-icon-wrapper">
+  	<div class="menu-icon" onclick="toggleCssMenu(this)">
+  		<div class="three-line">
+  			<span></span>
+  			<span></span>
+  			<span></span>
+  		</div>
+  	</div>
+  </div>
+  <div id="cssmenu">
+    <ul class="wsite-menu-default">
+      <li id="pg152224339977532049" class="wsite-menu-item-wrap">
+        <a href="index.html" class="wsite-menu-item">
+          Home
+        </a>
+
+      </li>
+      <li id="active" class="wsite-menu-item-wrap">
+        <a href="about.html" class="wsite-menu-item">
+          About
+        </a>
+
+      </li>
+      <li id="pg664130173815885767" class="wsite-menu-item-wrap">
+        <a href="press.html" class="wsite-menu-item">
+          Press
+        </a>
+
+      </li>
+      <li id="pg500595958448482602" class="wsite-menu-item-wrap">
+        <a href="tour.html" class="wsite-menu-item">
+          Calendar
+        </a>
+
+      </li>
+      <li id="pg775445224668503843" class="wsite-menu-item-wrap">
+        <a href="contact.html" class="wsite-menu-item">
+          Contact
+        </a>
+
+      </li>
+      <li id="pg775445224668503843" class="wsite-menu-item-wrap">
+        <a href="photos.html" class="wsite-menu-item">
+          Photos
+        </a>
+
+      </li>
+      <li id="pg703894550215743257" class="wsite-menu-item-wrap">
+        <a href="merchandise.html" class="wsite-menu-item">
+          Merchandise
+        </a>
+
+      </li>
+      <li id="pg703894550215743257" class="wsite-menu-item-wrap">
+        <a href="testimonials.html" class="wsite-menu-item">
+          Testimonials
+        </a>
+
+      </li>
+    </ul>
+  </div>
+  <script>
+      function toggleCssMenu(icon) {
+          var cssmenu = document.getElementById('cssmenu');
+          if (icon.className.indexOf('active') == -1) {
+              icon.className = 'menu-icon active';
+  			cssmenu.style.display = "block";
+  			setTimeout(function(){cssmenu.className = 'active';},0);
+          }
+          else {
+              icon.className = 'menu-icon';
+  			cssmenu.className = '';
+  			setTimeout(function(){cssmenu.style.display = "none";},411);
+          }
+      }
+  </script>
+  <!--end CssMenu-->
 
   <div id="banner-wrap">
     <div class="container">
@@ -273,104 +352,97 @@
   </div><!-- end banner-wrap -->
 
   <div id="main-wrap">
-    <div id="wsite-content" class="wsite-elements wsite-not-footer">
-      <div class="wsite-section-wrap">
-        <div class="wsite-section wsite-body-section wsite-background-15">
-          <div class="wsite-section-content">
-            <div class="container">
-              <div class="wsite-section-elements">
-                <h2 class="wsite-content-title" style="text-align:center;">LINKS</h2>
-                <div>
-                  <div style="height: 20px; overflow: hidden; width: 100%;"></div>
-                  <hr class="styled-hr" style="width:100%;">
-                  </hr>
-                  <div style="height: 20px; overflow: hidden; width: 100%;"></div>
-                </div>
+    <div class="container">
+      <div id="wsite-content" class="wsite-elements wsite-not-footer">
+        <div>
+          <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+          <hr class="styled-hr" style="width:100%;">
+          </hr>
+          <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+        </div>
 
-                <div>
-                  <div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
-                    <a href='https://www.jeffhodge.com/index.html' target='_blank'>
-                      <img src="uploads/reduced - Jeff Hodge Live in Concert.jpeg" alt="Picture" style="width:auto;max-width:100%" />
-                    </a>
-                    <div style="display:block;font-size:90%"></div>
-                  </div>
-                </div>
+        <div>
+          <div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+            <a href='https://www.jeffhodge.com/index.html' target='_blank'>
+              <img src="uploads/reduced - Jeff Hodge Live in Concert.jpeg" alt="Picture" style="width:auto;max-width:100%" />
+            </a>
+            <div style="display:block;font-size:90%"></div>
+          </div>
+        </div>
 
-                <div>
-                  <div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-                    <a href='https://www.yeahmonentertainment.com/index.html' target='_blank'>
-                      <img src="uploads/yea-mon-banner-1.png" alt="Author/Comedian/Speaker" style="width:100%;max-width:464px" />
-                    </a>
-                    <div style="display:block;font-size:90%"></div>
-                  </div>
-                </div>
+        <div>
+          <div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+            <a href='https://www.yeahmonentertainment.com/index.html' target='_blank'>
+              <img src="uploads/yea-mon-banner-1.png" alt="Author/Comedian/Speaker" style="width:100%;max-width:464px" />
+            </a>
+            <div style="display:block;font-size:90%"></div>
+          </div>
+        </div>
 
-                <div>
-                  <div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-                    <a href='https://www.yeahmonentertainment.com/store.html' target='_blank'>
-                      <img src="uploads/T-shirts_Promo-v3.png" alt="Author/Comedian/Speaker" style="width:100%;max-width:464px" />
-                    </a>
-                    <div style="display:block;font-size:90%"></div>
-                  </div>
-                </div>
+        <div>
+          <div class="wsite-image wsite-image-border-thin " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+            <a href='https://www.yeahmonentertainment.com/store.html' target='_blank'>
+              <img src="uploads/T-shirts_Promo-v3.png" alt="Author/Comedian/Speaker" style="width:100%;max-width:464px" />
+            </a>
+            <div style="display:block;font-size:90%"></div>
+          </div>
+        </div>
 
-                <div>
-                  <div class="wsite-multicol">
-                    <div class="wsite-multicol-table-wrap" style="margin:0 -10px;">
-                      <table class="wsite-multicol-table">
-                        <tbody class="wsite-multicol-tbody">
-                          <tr class="wsite-multicol-tr">
-                            <td class="wsite-multicol-col" style="width:50%; padding:0 10px;">
+        <div>
+          <div class="wsite-multicol">
+            <div class="wsite-multicol-table-wrap" style="margin:0 -10px;">
+              <table class="wsite-multicol-table">
+                <tbody class="wsite-multicol-tbody">
+                  <tr class="wsite-multicol-tr">
+                    <td class="wsite-multicol-col" style="width:50%; padding:0 10px;">
 
-                              <div>
-                                <div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
-                                  <a href='http://roadttrippinthepodcast.libsyn.com/website' target='_blank'>
-                                    <img src="uploads/road-trippin-podcast.png" alt="Picture" style="width:auto;max-width:100%" />
-                                  </a>
-                                  <div style="display:block;font-size:90%"></div>
-                                </div>
-                              </div>
+                      <div>
+                        <div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+                          <a href='http://roadttrippinthepodcast.libsyn.com/website' target='_blank'>
+                            <img src="uploads/road-trippin-podcast.png" alt="Picture" style="width:auto;max-width:100%" />
+                          </a>
+                          <div style="display:block;font-size:90%"></div>
+                        </div>
+                      </div>
 
 
-                            </td>
+                    </td>
 
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- line break code -->
-                <div>
-                  <div style="height: 20px; overflow: hidden; width: 100%;"></div>
-                  <hr class="styled-hr" style="width:100%;">
-                  </hr>
-                  <div style="height: 20px; overflow: hidden; width: 100%;"></div>
-                </div>
-
-                <div class="paragraph" style="text-align:center;">Follow us on Social Media: </div>
-              </div>
-
-              <div style="display:flex;align-items:center;justify-content:center;"><a href="https://twitter.com/AmbassadorsofC5" target="_blank" rel="noopener noreferrer"
-                  style="text-decoration:none;border:0;width:36px;height:36px;padding:2px;margin:5px;color:#717171;border-radius:15%;background-color:#fafafa;"><svg class="niftybutton-twitter" style="display:block;fill:currentColor" data-tag="twi"
-                    data-name="Twitter" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
-                    <path
-                      d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z">
-                    </path>
-                  </svg></a><a href="https://www.instagram.com/ambassadorsofcomedy/" target="_blank" rel="noopener noreferrer"
-                  style="text-decoration:none;border:0;width:36px;height:36px;padding:2px;margin:5px;color:#717171;border-radius:15%;background-color:#fafafa;"><svg class="niftybutton-instagram" style="display:block;fill:currentColor" data-tag="ins"
-                    data-name="Instagram" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
-                    <path
-                      d="M256 109.3c47.8 0 53.4 0.2 72.3 1 17.4 0.8 26.9 3.7 33.2 6.2 8.4 3.2 14.3 7.1 20.6 13.4 6.3 6.3 10.1 12.2 13.4 20.6 2.5 6.3 5.4 15.8 6.2 33.2 0.9 18.9 1 24.5 1 72.3s-0.2 53.4-1 72.3c-0.8 17.4-3.7 26.9-6.2 33.2 -3.2 8.4-7.1 14.3-13.4 20.6 -6.3 6.3-12.2 10.1-20.6 13.4 -6.3 2.5-15.8 5.4-33.2 6.2 -18.9 0.9-24.5 1-72.3 1s-53.4-0.2-72.3-1c-17.4-0.8-26.9-3.7-33.2-6.2 -8.4-3.2-14.3-7.1-20.6-13.4 -6.3-6.3-10.1-12.2-13.4-20.6 -2.5-6.3-5.4-15.8-6.2-33.2 -0.9-18.9-1-24.5-1-72.3s0.2-53.4 1-72.3c0.8-17.4 3.7-26.9 6.2-33.2 3.2-8.4 7.1-14.3 13.4-20.6 6.3-6.3 12.2-10.1 20.6-13.4 6.3-2.5 15.8-5.4 33.2-6.2C202.6 109.5 208.2 109.3 256 109.3M256 77.1c-48.6 0-54.7 0.2-73.8 1.1 -19 0.9-32.1 3.9-43.4 8.3 -11.8 4.6-21.7 10.7-31.7 20.6 -9.9 9.9-16.1 19.9-20.6 31.7 -4.4 11.4-7.4 24.4-8.3 43.4 -0.9 19.1-1.1 25.2-1.1 73.8 0 48.6 0.2 54.7 1.1 73.8 0.9 19 3.9 32.1 8.3 43.4 4.6 11.8 10.7 21.7 20.6 31.7 9.9 9.9 19.9 16.1 31.7 20.6 11.4 4.4 24.4 7.4 43.4 8.3 19.1 0.9 25.2 1.1 73.8 1.1s54.7-0.2 73.8-1.1c19-0.9 32.1-3.9 43.4-8.3 11.8-4.6 21.7-10.7 31.7-20.6 9.9-9.9 16.1-19.9 20.6-31.7 4.4-11.4 7.4-24.4 8.3-43.4 0.9-19.1 1.1-25.2 1.1-73.8s-0.2-54.7-1.1-73.8c-0.9-19-3.9-32.1-8.3-43.4 -4.6-11.8-10.7-21.7-20.6-31.7 -9.9-9.9-19.9-16.1-31.7-20.6 -11.4-4.4-24.4-7.4-43.4-8.3C310.7 77.3 304.6 77.1 256 77.1L256 77.1z">
-                    </path>
-                    <path d="M256 164.1c-50.7 0-91.9 41.1-91.9 91.9s41.1 91.9 91.9 91.9 91.9-41.1 91.9-91.9S306.7 164.1 256 164.1zM256 315.6c-32.9 0-59.6-26.7-59.6-59.6s26.7-59.6 59.6-59.6 59.6 26.7 59.6 59.6S288.9 315.6 256 315.6z"></path>
-                    <circle cx="351.5" cy="160.5" r="21.5"></circle>
-                  </svg></a></div>
-
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
+
+        <!-- line break code -->
+        <div>
+          <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+          <hr class="styled-hr" style="width:100%;">
+          </hr>
+          <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+        </div>
+
+        <div class="paragraph" style="text-align:center;">Follow us on Social Media: </div>
+        </div>
+
+        <div style="display:flex;align-items:center;justify-content:center;"><a href="https://twitter.com/AmbassadorsofC5" target="_blank" rel="noopener noreferrer"
+            style="text-decoration:none;border:0;width:36px;height:36px;padding:2px;margin:5px;color:#717171;border-radius:15%;background-color:#fafafa;"><svg class="niftybutton-twitter" style="display:block;fill:currentColor" data-tag="twi"
+              data-name="Twitter" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+              <path
+                d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z">
+              </path>
+              </svg></a><a href="https://www.instagram.com/ambassadorsofcomedy/" target="_blank" rel="noopener noreferrer"
+              style="text-decoration:none;border:0;width:36px;height:36px;padding:2px;margin:5px;color:#717171;border-radius:15%;background-color:#fafafa;"><svg class="niftybutton-instagram" style="display:block;fill:currentColor" data-tag="ins"
+              data-name="Instagram" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+              <path
+                d="M256 109.3c47.8 0 53.4 0.2 72.3 1 17.4 0.8 26.9 3.7 33.2 6.2 8.4 3.2 14.3 7.1 20.6 13.4 6.3 6.3 10.1 12.2 13.4 20.6 2.5 6.3 5.4 15.8 6.2 33.2 0.9 18.9 1 24.5 1 72.3s-0.2 53.4-1 72.3c-0.8 17.4-3.7 26.9-6.2 33.2 -3.2 8.4-7.1 14.3-13.4 20.6 -6.3 6.3-12.2 10.1-20.6 13.4 -6.3 2.5-15.8 5.4-33.2 6.2 -18.9 0.9-24.5 1-72.3 1s-53.4-0.2-72.3-1c-17.4-0.8-26.9-3.7-33.2-6.2 -8.4-3.2-14.3-7.1-20.6-13.4 -6.3-6.3-10.1-12.2-13.4-20.6 -2.5-6.3-5.4-15.8-6.2-33.2 -0.9-18.9-1-24.5-1-72.3s0.2-53.4 1-72.3c0.8-17.4 3.7-26.9 6.2-33.2 3.2-8.4 7.1-14.3 13.4-20.6 6.3-6.3 12.2-10.1 20.6-13.4 6.3-2.5 15.8-5.4 33.2-6.2C202.6 109.5 208.2 109.3 256 109.3M256 77.1c-48.6 0-54.7 0.2-73.8 1.1 -19 0.9-32.1 3.9-43.4 8.3 -11.8 4.6-21.7 10.7-31.7 20.6 -9.9 9.9-16.1 19.9-20.6 31.7 -4.4 11.4-7.4 24.4-8.3 43.4 -0.9 19.1-1.1 25.2-1.1 73.8 0 48.6 0.2 54.7 1.1 73.8 0.9 19 3.9 32.1 8.3 43.4 4.6 11.8 10.7 21.7 20.6 31.7 9.9 9.9 19.9 16.1 31.7 20.6 11.4 4.4 24.4 7.4 43.4 8.3 19.1 0.9 25.2 1.1 73.8 1.1s54.7-0.2 73.8-1.1c19-0.9 32.1-3.9 43.4-8.3 11.8-4.6 21.7-10.7 31.7-20.6 9.9-9.9 16.1-19.9 20.6-31.7 4.4-11.4 7.4-24.4 8.3-43.4 0.9-19.1 1.1-25.2 1.1-73.8s-0.2-54.7-1.1-73.8c-0.9-19-3.9-32.1-8.3-43.4 -4.6-11.8-10.7-21.7-20.6-31.7 -9.9-9.9-19.9-16.1-31.7-20.6 -11.4-4.4-24.4-7.4-43.4-8.3C310.7 77.3 304.6 77.1 256 77.1L256 77.1z">
+              </path>
+              <path d="M256 164.1c-50.7 0-91.9 41.1-91.9 91.9s41.1 91.9 91.9 91.9 91.9-41.1 91.9-91.9S306.7 164.1 256 164.1zM256 315.6c-32.9 0-59.6-26.7-59.6-59.6s26.7-59.6 59.6-59.6 59.6 26.7 59.6 59.6S288.9 315.6 256 315.6z"></path>
+              <circle cx="351.5" cy="160.5" r="21.5"></circle>
+            </svg></a></div>
+
+
       </div>
     </div>
 
