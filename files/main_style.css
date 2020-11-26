@@ -701,14 +701,24 @@ div.paragraph ol, div.paragraph ol li {
   list-style: decimal outside !important;
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
+
+  img {
+  max-width: 50%;
+  }
+
   .unite-header .logo #wsite-title {
     font-size: 22px;
     letter-spacing: 0.015em;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
+
+  img {
+  max-width: 50%;
+  }
+
   .container, .wsite-footer {
     overflow: hidden;
   }
@@ -1051,7 +1061,12 @@ div.paragraph ol, div.paragraph ol li {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
+
+  img {
+  max-width: 50%;
+  }
+
   h2 {
     font-size: 28px !important;
     line-height: 1.15 !important;
@@ -1292,7 +1307,12 @@ div.paragraph ol, div.paragraph ol li {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
+
+  img {
+  max-width: 50%;
+  }
+
   #wsite-com-checkout-list .wsite-com-checkout-item-image, #wsite-com-checkout-summary-list .wsite-com-checkout-item-image {
     display: none;
   }
