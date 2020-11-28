@@ -424,7 +424,7 @@ div#content {
 }
 
 .short-header-page .wsite-header {
-  width: 960px;
+  width: 100%;
   float: left;
   height: 221px;
 }
@@ -701,24 +701,14 @@ div.paragraph ol, div.paragraph ol li {
   list-style: decimal outside !important;
 }
 
-@media only screen and (max-width: 1200px) {
-
-  img {
-  max-width: 50%;
-  }
-
+@media only screen and (min-width: 1200px) {
   .unite-header .logo #wsite-title {
     font-size: 22px;
     letter-spacing: 0.015em;
   }
 }
 
-@media only screen and (max-width: 1024px) {
-
-  img {
-  max-width: 50%;
-  }
-
+@media only screen and (min-width: 900px) {
   .container, .wsite-footer {
     overflow: hidden;
   }
@@ -1061,12 +1051,7 @@ div.paragraph ol, div.paragraph ol li {
   }
 }
 
-@media only screen and (max-width: 800px) {
-
-  img {
-  max-width: 50%;
-  }
-
+@media only screen and (min-width: 600px) {
   h2 {
     font-size: 28px !important;
     line-height: 1.15 !important;
@@ -1307,11 +1292,7 @@ div.paragraph ol, div.paragraph ol li {
   }
 }
 
-@media only screen and (max-width: 480px) {
-
-  img {
-  max-width: 50%;
-  }
+@media only screen and (max-width: 599px) {
 
   #wsite-com-checkout-list .wsite-com-checkout-item-image, #wsite-com-checkout-summary-list .wsite-com-checkout-item-image {
     display: none;
